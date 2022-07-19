@@ -16,8 +16,8 @@ format:
 	
 deploy:
 	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 949510079382.dkr.ecr.us-east-1.amazonaws.com
-	docker build -t python_base .
-	docker tag python_base:latest 949510079382.dkr.ecr.us-east-1.amazonaws.com/python_base:latest
-	docker push 949510079382.dkr.ecr.us-east-1.amazonaws.com/python_base:latest
+	docker build -t fast_api .
+	docker tag fast_api:latest 949510079382.dkr.ecr.us-east-1.amazonaws.com/fast_api:latest
+	docker push 949510079382.dkr.ecr.us-east-1.amazonaws.com/fast_api:latest
 	
 all: install post-install lint test format deploy
