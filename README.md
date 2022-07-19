@@ -12,7 +12,13 @@ Base Python Project Scaffold
 * command-line-tool
 * Microservices
 
-## Virtual Environment
+## To run base project
 1. Create virtual environment with virtualenv: `virtualenv ~/.venv`
 2. Edit bashrc: `vim ~/.bashrc` and add `source ~/.venv/bin/activate` at the end
-3. clone projecy then run `male all`
+3. Clone project then run `male all`
+
+## To run api
+### Docs available at /docs
+1. Run `python main.py`
+
+
