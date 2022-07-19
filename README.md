@@ -15,3 +15,4 @@ Base Python Project Scaffold
 ## Virtual Environment
 1. Create virtual environment with virtualenv: `virtualenv ~/.venv`
 2. Edit bashrc: `vim ~/.bashrc` and add `source ~/.venv/bin/activate` at the end
+3. clone projecy then run `male all`
